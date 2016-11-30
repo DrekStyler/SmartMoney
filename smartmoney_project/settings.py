@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     ##DMS Installed Apps
+    'smart_money'
 
 ]
 

@@ -1,1 +1,25 @@
-<h1>We are Home!</h1>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    {% load static %}
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <h1>Smart Money, A Virtual VC</h1>
+    </header>
+    <div>You tell us about your business and we give you a score based on simulated invetor feedback</div><br>
+    <div class="vertical">
+      <b>Who will you primarily market your Product to?</b><br>
+      <a>Consumer</a>
+      <a>Business</a>
+    </div>
+    {{title}}
+    <div>
+    {% block content %}
+    {% endblock %}
+  </div>
+  </body>
+</html>

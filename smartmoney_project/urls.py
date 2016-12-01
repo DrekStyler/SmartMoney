@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^company/', include('smart_money.urls'))
+    url(r'^company/', include('smart_money.urls')),
 ]
